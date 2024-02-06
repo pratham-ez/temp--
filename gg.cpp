@@ -1,0 +1,21 @@
+curl 'https://ultronapi-g-s.sourcerer.tech/document/v3/confirm' \
+  -X 'PUT' \
+  -H 'authority: ultronapi-g-s.sourcerer.tech' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,mr;q=0.6,hi;q=0.5' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTY0ODhkODQtNjQ5Ni00M2Q4LThlMDYtNjQyY2IyZmQ4ZjQ1IiwidGVuYW50X2lkIjoiMGYzNDlkZjctN2M5Yi00Yjk1LWIzNzAtZTg4OWI2MzAzMmYyIiwib3JnYW5pemF0aW9uX2lkIjoiMDRlMjU5ZjctNzk5Ni00YmU0LTg2MGYtNTAzODg4ZDI0MzIwIiwiZXhwIjoxNzA5NDY2ODQ3fQ.nd0yS36fIVhGbvrypXAoaWRGzRd_d7OWhouEfvHSVZ0' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://ultron-git-develop-sourcewiz.vercel.app' \
+  -H 'referer: https://ultron-git-develop-sourcewiz.vercel.app/' \
+  -H 'sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36' \
+  -H 'x-client-env: DEV' \
+  -H 'x-client-id: WEB' \
+  -H 'x-client-version: 0.0.1' \
+  --data-raw '{"document_id":"01958784-cd8a-4f9a-8933-d2ab4f870e03"}' \
+  --compressed
